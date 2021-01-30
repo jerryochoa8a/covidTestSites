@@ -1,0 +1,60 @@
+.optionBox{
+    /* background-color: lightseagreen;s */
+    border: 2px solid rgb(189, 189, 189);
+    width: 90%;
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.optionBox:hover {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.button {
+    background-color: aliceblue;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 80px;
+    margin-right: 40px;
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
+
+}
+
+.input {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.titleBox {
+    /* background-color: red; */
+    float: right;
+    width: 55%;
+}
+
+.imgBox {
+    width: 130px;
+    height: 110px;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+Link {
+    color: rgb(49, 49, 49);
+}

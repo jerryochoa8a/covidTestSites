@@ -1,0 +1,29 @@
+.cool {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 23px;
+    color: aliceblue;
+  }
+/* .cool:hover {
+    color: rgb(216, 76, 94);
+    transition-duration: 0.5s;
+} */
+
+.name {
+    color: aliceblue;
+    /* background-color: rebeccapurple; */
+    width:100%;
+    font-family: Fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* .name:hover {
+    color: rgb(56, 255, 189);
+    transition-duration: 0.5s;
+} */
+
+.bcolor {
+    background-color:#343a40;
+}

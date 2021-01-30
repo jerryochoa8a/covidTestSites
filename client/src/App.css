@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.single-store {
+  overflow: scroll;
+  /* max-height: 78vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.single-store-back-link {
+  align-self: flex-start;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.single-store-name {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.single-store-photos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 0px 20px 20px 20px;
+  border-bottom: 0.3px solid lightgray;
+}
+
+.single-store-photo {
+  max-height: 200px;
+  width: auto;
+}
+
+.single-store-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px 40px 20px 40px;
+}
+
+.single-store-location {
+  width: 40%;
+  text-align: left;
+}
+
+.single-store-location-line {
+  margin: 0px;
+}
+
+.single-store-hours {
+  text-align: left;
+  width: 30%;
+}
+
+.single-store-hours-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-store-hours-day {
+  font-weight: bolder;
+  color: #9E1201;
+  width: 20%;
+}

@@ -1,0 +1,20 @@
+.map {
+    width: 300px;
+    height: 100px;
+}
+
+.map  {
+    max-width: 450px;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   };
+.mapCon {
+    max-width: 450px;
+    height: 350px;
+   }
+
+.infoImage {
+    width: 100px;
+    height: 100px;
+}
